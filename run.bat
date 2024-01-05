@@ -1,7 +1,7 @@
 @echo off
 
 REM This is how you run it from the command line.
-REM You don't actually need this script!
+REM You don't actually need this script*
 SET RUN_KOANS=python.exe -B contemplate_koans.py
 
 REM Set this to your python folder:
@@ -27,7 +27,7 @@ IF NOT "" == "%SCRIPT%" (
   pause
 ) ELSE (
   echo.
-  echo Python.exe is not in the path!
+  echo Python.exe is not in the path 
   echo.
   echo Fix the path and try again.
   echo Or better yet, run this with the correct python path:
@@ -42,3 +42,4 @@ if "%keepgoing%" == "y" (
 	)
 
 :end
+ 
